@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Сторінка нотаток</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf8">
+    <link type="text/css" href="{% static 'note/css/bootstrap.css' %}" rel="stylesheet">
+    <link type="text/css" href="{% static 'note/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body style="background-color:#f2f2f2;">
+    
+    <div class="container">
+	
+	<div class="row">
+	    <div class="col-lg-3 col-sm-4  col-12" style="background-color: green;">
+                Клонка 1
+            </div>
+	    <div class="col-lg-7 col-sm-6 col-12" style="background-color: red;">
+                Клонка 2
+            </div>
+            <div class="col-lg-2 col-sm-2 col-12" style="background-color: yellow;">
+                Клонка 3
+            </div>
+	    <div class='offset-0 col-lg-4 col-sm-12 col-12' style="background-color: blue;">
+            	Колонка 4
+	    </div>
+	    <div class='offset-sm-8 col-lg-3 col-sm-12 col-12' style="background-color: white;">
+		Колонка 5
+            </div>
+	    <div class='col-lg-5 col-sm-3 col-12' style="background-color: red;">
+		Колонка 6
+            </div>
+	</div>
+        <div class="display-3" align="center">Домашня сторінка</div>
+        
+	{% block container_note %}
+	{% endblock %}
+
+        <div align='right'><button class="button_add"><div class="display-1">+</div></button></div>
+
+    </div>
+</body>
+
+</html>

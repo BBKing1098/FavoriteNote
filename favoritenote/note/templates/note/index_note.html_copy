@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Сторінка нотаток</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf8">
+    <link type="text/css" href="{% static 'note/css/bootstrap.css' %}" rel="stylesheet">
+    <link type="text/css" href="{% static 'note/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body class="container" style="background-color:#f2f2f2;">
+    <div class="display-3" align="center">Домашня сторінка</div>
+    
+    <div align='right'><button class="button_add"><div class="display-1">+</div></button></div>
+
+</body>
+
+</html>

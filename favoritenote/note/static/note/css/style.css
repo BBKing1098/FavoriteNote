@@ -1,0 +1,10 @@
+.button_add{
+    width:150px;
+    height:150px;
+    position: fixed;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 5%;
+    right: 5%;
+    opacity: 0.9;
+}
